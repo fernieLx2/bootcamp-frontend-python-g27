@@ -11,7 +11,9 @@
     <main class="container">
         <h1>Formularios + Inputs + Validaciones</h1>
         <form action="">
+
             <h2>Inputs</h2>
+
             <label for="text1">Input tipo texto</label>
             <input id="text1" type="text" placeholder="Ingresa algun texto">
             
@@ -42,7 +44,7 @@
 
             <label for="">
                 Input rango
-                <input type="range" min="0" max="100" step="10">
+                <input type="range" min="0" max="100" step="10" value="70">
             </label>
 
             <label for="">
@@ -72,7 +74,8 @@
 
             <label for="">
                 Input tipo file - seleccionar .jpg, uno a la vez
-                <input type="file" accept=".jpg"> 
+                <input type="file" accept=".jpg">
+                <!--el .jpg es para que cuando quieras subir por defecto te aparezcan todos los jpg, no es una restriccion-->
             </label>
 
             <label for="">
@@ -80,13 +83,17 @@
                 <input type="file" accept=".pdf" multiple> 
             </label>
 
-                <input type="hidden" value="datos-ocultos">
 
+                <input type="hidden" value="datos-ocultos">
                 <input type="submit" value="Guardar" >
                 <input type="reset" value="Limpiar" >
 
         </form>
+
+<!---------------------------------------------------------------------------------------------------------->
+        
         <form>
+            
             <h2>Inputs tipo fecha</h2>
 
             <label>
