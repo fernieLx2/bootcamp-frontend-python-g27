@@ -134,9 +134,148 @@
             </form>
 
         <form>
+            
             <h2>Checkboxes</h2>
+        
+                <h3>Lenguajes de preferencia</h3>
+
+                <label for="">
+                    <input type="checkbox" value="en">
+                    ingles
+                </label>
+
+                <label for="">
+                    <input type="checkbox" value="es">
+                    español
+                </label>
+
+                <label for="">
+                    <input type="checkbox" value="do">
+                    dothraki
+                </label>
+
+                <input type="submit" value="guardar">
+
         </form>
+        
         <br>
+
+        <form>
+            <!-- se le pone el atributo name con el valor lenguaje para que solo me permita elegir un valor -->
+            <h2>Radio buttons</h2>
+        
+                <h3>Lenguajes de preferencia</h3>
+
+                <label for="">
+                    <input type="radio" name="lenguaje" value="en">
+                    ingles
+                </label>
+
+                <label for="">
+                    <input type="radio" name="lenguaje" value="es">
+                    español
+                </label>
+
+                <label for="">
+                    <input type="radio" name="lenguaje" value="do">
+                    dothraki
+                </label>
+
+                <h3>Seleccione su comida favorita</h3>
+
+                <label for="">
+                    <input type="radio" name="food" value="en">
+                    ceviche
+                </label>
+
+                <label for="">
+                    <input type="radio" name="food" value="es">
+                    causa
+                </label>
+
+                <label for="">
+                    <input type="radio" name="food" value="do">
+                    chaufa
+                </label>
+
+                <input type="submit" value="guardar">
+
+        </form>
+
+        <br>
+
+        <form action="">
+
+            <h2>Selets</h2>
+
+                <label for="">
+                    COMIDA FAVORITA
+
+                    <select name="" id="">
+                        <option value="">Selecciona tu Comida Favorita </option>
+                        <option value="fr">Francesa</option>
+                        <option value="it">Italiana</option>
+                        <option value="jp">Japonesa</option>
+                        <option value="pe">Peruana</option>
+                    </select>
+                </label>
+
+                <label for="">
+                    COMIDA FAVORITA (Seleccion multiple) presiona ctrl + click para seleccionar
+
+                    <select name="" id="" multiple>
+                        <option value="">Selecciona tu Comida Favorita </option>
+                        <option value="fr">Francesa</option>
+                        <option value="it">Italiana</option>
+                        <option value="jp">Japonesa</option>
+                        <option value="pe">Peruana</option>
+                    </select>
+                </label>
+        </form>
+        
+        <br>
+
+        <form action="">
+
+            <h2>Validaciones</h2>
+
+                <label for="">  
+                    Nombre Obligatorio
+                    <input type="text" name="nombre" required minlength="3" maxlength="15">
+                </label>
+
+                <label for="">  
+                    Email Obligatorio
+                    <input type="email" name="email" required>
+                </label>
+
+                <label for="">  
+                    Edad Obligatorio
+                    <input type="number" name="edad" required min="1" max="99">
+                </label>
+
+                <label for="">  
+                    Telefono Obligatorio
+                    <input type="tel" name="telefono" placeholder="+51 999 999 999" pattern="\+[0-9]{2} [0-9]{3} [0-9]{3} [0-9]{3}">
+                </label>
+
+                <label for="">  
+                    Comida Obligatorio
+
+                    <select name="comidas" id="" required>
+                        <option value="">Selecciona tu Comida Favorita </option>
+                        <option value="fr">Francesa</option>
+                        <option value="it">Italiana</option>
+                        <option value="jp">Japonesa</option>
+                        <option value="pe">Peruana</option>
+                    </select>
+
+                </label>
+
+
+                <input type="submit" value="Guardar">
+
+        </form>
     </main>
 </body>
 </html>
