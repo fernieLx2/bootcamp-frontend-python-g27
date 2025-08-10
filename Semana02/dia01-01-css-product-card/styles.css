@@ -7,4 +7,13 @@ body{
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;/*alinea el contenidoi horizontal*/
+    align-items: center;/*alinea el contenido verticalmente*/
+    height: 100dvh;
+}
+
+main{
+    width: 650px;
+    height: 400px;
 }
