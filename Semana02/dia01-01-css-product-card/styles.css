@@ -14,7 +14,23 @@ body{
 }
 
 main{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 650px;
     height: 400px;
+    display: flex;/*sirve para dividir los elementos uno al lado del otro*/
+    border-radius: 14px;
+    overflow: hidden;/*oculta los desbordamientos*/
+}
+
+.photo{
+    background-color: orange;
+    width: 300px;/*referencia al main que es el padre*/
+    background-image: url(./images/image-product-desktop.jpg);
+    background-size: cover;/*ocupa todo el espacio*/
+    background-repeat: no-repeat;
+}
+
+.content{
+    background-color: green;
+    width: 350px;
 }
