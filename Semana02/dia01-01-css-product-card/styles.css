@@ -39,6 +39,10 @@ main{
 .content{
     background-color: hsl(0, 0%, 100%);
     width: 350px;
+    padding: 28px;
+    display: flex;/*los elementos se van uno al lado del otro*/
+    flex-direction: column;/*con este se va verticalemnte*/
+    gap : 28px;/*esta propiedad no ayuda al espaciado entre elementos*/
 
 }
 
@@ -63,4 +67,14 @@ main{
     line-height: 1.5;
     color: hsl(228, 12%, 48%);
 
+}
+
+.content div{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.content span{
+    
 }
