@@ -22,7 +22,7 @@ h1, h2, p{
 main{
     /*border: 1px solid red;*/
     width: 650px;
-    height: 400px;
+    min-height: 400px;
     display: flex;/*sirve para dividir los elementos uno al lado del otro*/
     border-radius: 14px;
     overflow: hidden;/*oculta los desbordamientos*/
@@ -76,5 +76,31 @@ main{
 }
 
 .content span{
-    
+    font-family: "Fraunces", serif;
+    font-size: 42px;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
 }
+
+.content s{
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+
+.content button{
+    border: 0;
+    font-family: inherit; /*con esto toma los estilos de la fuente padre*/
+    background-color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    color: white;
+    padding: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
