@@ -30,7 +30,7 @@ main{
 
 .photo{
     background-color: orange;
-    width: 300px;/*referencia al main que es el padre*/
+    width: 350px;/*referencia al main que es el padre*/
     background-image: url(./images/image-product-desktop.jpg);
     background-size: cover;/*ocupa todo el espacio*/
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@ main{
 
 .content{
     background-color: hsl(0, 0%, 100%);
-    width: 350px;
+    width: 300px;
     padding: 28px;
     display: flex;/*los elementos se van uno al lado del otro*/
     flex-direction: column;/*con este se va verticalemnte*/
