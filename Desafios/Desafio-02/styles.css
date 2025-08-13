@@ -1,0 +1,33 @@
+
+/*
+    font-family: "Inter", sans-serif;
+    font-family: "Lexend Deca", sans-serif;
+*/
+
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    background-color: white /*hsl(233, 47%, 7%)*/;
+    display: flex;
+    justify-content: center;/*alinea el contenidoi horizontal*/
+    align-items: center;/*alinea el contenido verticalmente*/
+    height: 100dvh;
+}
+
+h1, h3, p{
+    margin: 0;
+}
+
+main{
+    /*border: 1px solid red;*/
+    width: 950px;
+    min-height: 400px;
+    display: flex;/*sirve para dividir los elementos uno al lado del otro*/
+    border-radius: 15px;
+    overflow: hidden;/*oculta los desbordamientos*/
+}
+
+.content{
+    background-color: white /*hsl(244, 37%, 16%)*/;
+}
+
